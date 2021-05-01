@@ -1,4 +1,5 @@
 
+
 DROP TABLE BeerReviews;
 
 CREATE TABLE BeerReviews (
@@ -48,3 +49,14 @@ CREATE TABLE Incarceration (
 );
 
 SELECT * from Incarceration;
+
+
+DROP TABLE breweries;
+
+CREATE TABLE breweries (
+	index INT PRIMARY KEY,
+	brewery VARCHAR(100),
+	country VARCHAR
+);
+
+SELECT * from breweries;
